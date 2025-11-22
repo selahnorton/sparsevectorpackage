@@ -1,0 +1,15 @@
+Package: sparsevectors
+Title: Sparse Vector Class and Methods
+Version: 0.0.0.9000
+Authors@R: 
+    person("Selah", "Norton", email = "selah@utexas.edu", role = c("aut", "cre"))
+Description: Defines an S4 class for sparse numeric vectors and provides methods to perform operations on them, including addition, subtraction, multiplication, division, and cross product. For single vectors, it also includes functions to compute the norm, mean, and to standardize or normalize the vector.The package also provides a method for visualizing sparse vectors.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+  methods, 
+  graphics
+Suggests:
+    testthat
+RoxygenNote: 7.3.3
